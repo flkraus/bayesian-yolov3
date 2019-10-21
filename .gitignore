@@ -1,0 +1,7 @@
+checkpoints/
+inference/
+log/
+tensorboard/
+uncertainty_visualization/
+test_images/
+__pycache__/
