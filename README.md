@@ -1,10 +1,25 @@
 # bayesian-yolov3
 YOLOv3 object detection architecture with uncertainty estimation in TensorFlow.
 
-Accompanying code for: https://arxiv.org/abs/1905.10296
+Accompanying code for: https://arxiv.org/abs/1905.10296 (IEEE Xplore: https://ieeexplore.ieee.org/document/8917494/)
 
+### Citation
+If you find this work useful in your research, please consider citing:
 
-Notes:
+    @inproceedings{kraus_uncertainty_2019,
+      address = {Auckland, New Zealand},
+      title = {Uncertainty {Estimation} in {One}-{Stage} {Object} {Detection}},
+      url = {https://ieeexplore.ieee.org/document/8917494/},
+      doi = {10.1109/ITSC.2019.8917494},
+      booktitle = {2019 {IEEE} {Intelligent} {Transportation} {Systems} {Conference} ({ITSC})},
+      publisher = {IEEE},
+      author = {Kraus, Florian and Dietmayer, Klaus},
+      month = oct,
+      year = {2019},
+      pages = {53--60}
+    }
+
+### Notes
 - Training examples with documentation:
   - pretraining.py - pretraining for models with uncertainty estimation
   - uncertainty_training.py - training for models with uncertainty estimation,
