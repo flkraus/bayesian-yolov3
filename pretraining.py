@@ -23,7 +23,7 @@ def main():
         'train_steps': 500000,
         'darknet53_weights': './darknet53.conv.74',
         'batch_size': 8,  # edit
-        'lr': 1e-4,
+        'lr': 1e-5,
         'cpu_thread_cnt': 24,  # edit
         'crop': True,  # edit: random crops and rescaling reduces memory consumption and improves training
         'freeze_darknet53': True,  # if True the basenet weights are frozen during training
